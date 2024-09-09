@@ -1,67 +1,60 @@
-# Java build files
+# Compiled class file
 *.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
 *.jar
 *.war
 *.ear
 
-# IntelliJ IDEA
-.idea/
-*.iml
-*.iws
-*.ipr
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+/out/
 
-# VS Code
-.vscode/
-
-# Maven
-target/
-!target/*.jar
-!.mvn/wrapper/mvnw
-!.mvn/wrapper/mvnw.cmd
-
-# Gradle
-.gradle/
-build/
-
-# Logs
-*.log
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Backup files
-*.bak
-*.swp
+# JAR Files
+*.jar
 
 # Temporary files
 *.tmp
-*.temp
+*.bak
+*.swp
 
-# Local configuration files
-*.local
-*.env
-
-# Compiled Python files
-*.pyc
-
-# JRebel
-rebel.xml
-
-# SonarLint
-.sonar
-
-# Eclipse
+# Eclipse files
 .project
 .classpath
+.c9/
+*.launch
 .settings/
 
-# NetBeans
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-private/
-*.swp
-*.swo
+# VS Code files
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Maven specific
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+log/
+repository/
+
+# Gradle specific
+.gradle/
+/build/
+
+# Others
+*.log
+*.tmp
+*.out
+.iml
