@@ -46,3 +46,12 @@ public class Main {
     }
 }
 
+```
+# what is upcasting and downcasting ?
+
+* Upcasting:
+Upcasting refers to casting a subclass object to a superclass reference.
+
+* Downcasting: 
+Downcasting is the process of casting a superclass reference back to a subclass reference.
+
